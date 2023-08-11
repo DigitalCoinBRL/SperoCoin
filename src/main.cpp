@@ -47,7 +47,7 @@ unsigned int nModifierInterval = 10 * 30; // time to elapse before new modifier 
 static const int64_t nTargetTimespan_legacy = nTargetSpacing * nRetarget; // every 30 blocks
 static const int64_t nInterval = nTargetTimespan_legacy / nTargetSpacing;
 
-static const int64_t nTargetTimespan = 30 * 60;
+static const int64_t nTargetTimespan = 30 * 60; // 30 minutes
 
 static const unsigned int CHECKLOCKTIMEVERIFY_SWITCH_TIME = 1461110400; // Wednesday, 20-Apr-16 00:00:00 UTC
 
